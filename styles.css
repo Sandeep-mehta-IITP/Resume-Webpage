@@ -1,0 +1,572 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Epilouge','Times New Roman', Times, serif, sans-serif;
+}
+
+body{
+    background-color: #1f2937;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    color: #E5E5E5;
+    margin-top: 1rem;
+    place-items: center;
+}
+
+#top-heading{
+    padding: 0.25rem 0.5rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+#top-para{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.header p span{
+    font-size: 2rem;
+    font-weight: 900;
+    color: aqua;
+}
+
+.social-links{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    margin: 3rem 0 0.5rem 3.5rem;
+
+}
+
+.social-links a {
+    color: #E5E5E5;
+    font-size: 1.25rem;
+}
+
+#github{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: -5px;
+}
+
+#linkedin{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: -5px;
+}
+
+#portfolio{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: -5px;
+}
+
+.about-me{
+    width: 100%;
+    min-height: 70vh;
+    position: relative;
+    top: 2rem;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.about-me-container{
+    max-width: 900px;
+    color: #E5E5E5;
+}
+
+.about-me-container h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.about-me-container h4 {
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+
+.about-me-container p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 0.4rem;
+}
+
+.about-me-container p span{
+    color: aqua;
+    font-weight: bold;
+}
+
+.about-me div img{
+    position: absolute;
+    top: 5rem;
+    right: 10rem;
+    border-radius: 50%;
+}
+
+.skills{
+    width: 100%;
+    position: relative;
+    top: 2rem;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills h2{
+    font-size: 2.5rem;
+    color: #E5E5E5;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.language-container{
+    color: #E5E5E5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+}
+
+.language-container h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 5px 0;
+    margin-left: 2rem;
+}
+
+
+.language-container ul li {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 5px 0;
+    margin-left: 5.5rem;
+    
+}
+
+.language-container ul li span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+
+.framework-container{
+    color: #E5E5E5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 0.9rem;
+
+}
+
+.framework-container h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 5px 0;
+    margin-left: 2rem;
+}
+
+.framework-container ul li {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 5px 0;
+    margin-left: 5.5rem;
+    
+}
+
+.framework-container ul li span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+
+.tool-container{
+    color: #E5E5E5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 0.9rem;
+
+}
+
+.tool-container h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 5px 0;
+    margin-left: 2rem;
+}
+
+.tool-container ul li {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 5px 0;
+    margin-left: 5.5rem;
+    
+}
+
+.tool-container ul li span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+.education{
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    top: 4rem;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.education h2{
+    font-size: 2.5rem;
+    color: #E5E5E5;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.college-education{
+    color: #E5E5E5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border-bottom: 1px solid #E5E5E5;
+
+}
+
+.college-education h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 5px 0;
+    margin-left: 2rem;
+}
+
+.college-education p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 2px 0 15px 2rem;
+   
+    
+}
+
+.college-education p span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+.sen-sec-education{
+    color: #E5E5E5;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border-bottom: 1px solid #E5E5E5;
+
+}
+
+.sen-sec-education h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 5px 0;
+    margin-left: 2rem;
+}
+
+.sen-sec-education p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 2px 0 15px 2rem;
+    
+}
+
+.sen-sec-education p span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+.sec-education{
+    color: #E5E5E5;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border-bottom: 1px solid #E5E5E5;
+
+}
+
+.sec-education h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 5px 0;
+    margin-left: 2rem;
+}
+
+.sec-education p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 2px 0 15px 2rem;
+    
+}
+
+.sec-education p span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+.experience{
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    top: 6rem;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.experience h2{
+    font-size: 2.5rem;
+    color: #E5E5E5;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.experience h5 {
+    font-size: 1.8rem;
+    color: #E5E5E5;
+    font-weight: 700;
+    margin: 5px 0;
+    margin-left: 2rem;
+}
+
+.experience p {
+    font-size: 1.2rem;
+    color: #E5E5E5;
+    font-weight: 300;
+    margin: 2px 0 15px 2.5rem;
+    
+}
+
+.experience p span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+.experience ul li {
+    font-size: 1rem;
+    color: #E5E5E5;
+    font-weight: 300;
+    margin: 5px 0;
+    margin-left: 2.5rem;
+    
+}
+
+.experience ul li i{
+    font-size: 0.7rem;
+    color: aqua;
+    margin-right: 0.5rem;
+}
+
+.projects{
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+    top: 7rem;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.projects h2{
+    font-size: 2.5rem;
+    color: #E5E5E5;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.projects ul li {
+    font-size: 1rem;
+    color: #E5E5E5;
+    font-weight: 300;
+    margin: 5px 0;
+    margin-left: 2.5rem;
+    
+}
+
+.projects ul li span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+.projects ul li i{
+    font-size: 0.7rem;
+    color: aqua;
+    margin-right: 0.5rem;
+}
+
+.hobby{
+    max-width: 900px;
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+    top: 9rem;
+    bottom: 5rem;
+    left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.hobby h2{
+    font-size: 2.5rem;
+    color: #E5E5E5;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.hobby ul li {
+    font-size: 1rem;
+    color: #E5E5E5;
+    font-weight: 300;
+    margin: 5px 0;
+    margin-left: 2.5rem;
+    
+}
+
+.hobby ul li span{
+    font-size: 1.35rem;
+    color: aqua;
+}
+
+.hobby ul li i{
+    font-size: 0.7rem;
+    color: aqua;
+    margin-right: 0.5rem;
+}
+
+.footer{
+    width: 100vw;
+    height: 130px;
+    background-color: #0c0e0f;
+    position: relative;
+    top: 7rem;
+}
+
+.footer p{
+    font-size: 1.6rem;
+    color: #E5E5E5;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+.contact-icons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 1.7rem;
+}
+
+
+#linkedin-icon {
+    font-size: 1.5rem;
+    color: aqua;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#linkedin-icon:hover {
+    color: rgb(105, 154, 154);  
+    transform: scale(1); 
+}
+
+#github-icon {
+    font-size: 1.5rem;
+    color: aqua;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#github-icon:hover {
+    color: rgb(105, 154, 154);  
+    transform: scale(1); 
+}
+
+#mail-icon {
+    font-size: 1.5rem;
+    color: aqua;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#mail-icon:hover {
+    color: rgb(105, 154, 154);  
+    transform: scale(1); 
+}
+
+#instagram-icon {
+    font-size: 1.5rem;
+    color: aqua;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#instagram-icon:hover {
+    color: rgb(105, 154, 154);  
+    transform: scale(1); 
+}
+
+#telegram-icon {
+    font-size: 1.5rem;
+    color: aqua;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#telegram-icon:hover {
+    color: rgb(105, 154, 154);  
+    transform: scale(1); 
+}
+
+#twitter-icon {
+    font-size: 1.5rem;
+    color: aqua;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#twitter-icon:hover {
+    color: rgb(105, 154, 154);  
+    transform: scale(1); 
+}
+
+#facebook-icon {
+    font-size: 1.5rem;
+    color: aqua;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#facebook-icon:hover {
+    color: rgb(105, 154, 154);  
+    transform: scale(1); 
+}
+
+
+/* Media Queries for Responsiveness */
+
